@@ -126,3 +126,8 @@ nb-configuration.xml
 /phpunit*.xml
 /.phpunit.*.cache
 
+/admin
+/public/admin/
+/public/assets/admin/
+/public/assets/js/
+/public/assets-admin/

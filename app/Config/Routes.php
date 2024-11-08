@@ -5,7 +5,10 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Pages::index');
+$routes->get('/', 'Home::index');
+
+//route admin dashboard
+$routes->get('/dashboard', 'Admin\Dashboard::index');
 
 $routes->get('/komik/create', 'Komik::create');
 $routes->get('/komik/edit/(:segment)', 'Komik::edit/$1');
